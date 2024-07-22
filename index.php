@@ -89,15 +89,17 @@ if(isset($_SESSION['userId']))
             <h1>Burger Doe</h1>
            
             <a href="panier.html" class="bi bi-basket3 cart-icon"> </a>
-             <?php if(isset($_SESSION['userId']))
+            <?php if(isset($_SESSION['userId']))
             {
               ?>
                 <span class="text-hello">Bonjour <?= htmlspecialchars($user['nom']); ?></span>
                 <?php
             }
             ?>
-            
+           
         </div>
+         
+            
 
         <!-- Navigation menu -->
         <nav>
@@ -151,6 +153,7 @@ if(isset($_SESSION['userId']))
               <a class="nav-link" href="inscription.php">Inscription / connexion</a>
             </li>
           <?php } ?>
+          
           <li class="nav-item">
             <a class="nav-link" href="panier.php">
               <i class="bi bi-bag"></i>

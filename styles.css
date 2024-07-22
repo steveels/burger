@@ -5,6 +5,9 @@ body {
 .site {
     font-family: 'Holtwood One SC', sans-serif;
 }
+.text-hello{
+    color: #e7480f;
+}
 .text-logo {
     font-family: 'Holtwood One SC', sans-serif;
     color: #e7480f;
@@ -12,6 +15,8 @@ body {
     font-size: 50px;
     padding: 40px 0px;
     text-align: center;
+    gap: 10px;
+    flex-direction: column;
 }
 .text-logo span {
     color: #ffd301;
